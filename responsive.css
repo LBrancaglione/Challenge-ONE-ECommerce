@@ -3,12 +3,36 @@
         width: 85%;
     }
 
+    #searchBar {
+        width: 100%;
+        margin-right: 10%;
+    }
+
+    .rightItens{
+       margin-left: 5%;
+    }
+
+    .rightItens button{
+        width: 150%;
+    }
+
     .mainBanner {
         width: 91.6%;
     }
 
+    .mainBanner .card {
+        width: 100%;
+    }
+
     .card h1, .card p {
         width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .card h1{
+        font-size: 38px;
     }
 
     .rowContent {
@@ -36,7 +60,6 @@
         align-items: flex-start;
         gap: 0px;
         height: 364px;
-        ;
     }
 
     .contact li {
@@ -56,7 +79,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-device-width: 360px) {
     #searchBar input {
         display: none;
     }
@@ -141,7 +164,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
         padding: 0px;
         height: 700px;
     }
@@ -174,7 +197,7 @@
     .card-tittle h3 {
         width: 176px;
         height: 16px;
-    
+
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
@@ -183,18 +206,19 @@
         color: #464646;
     }
 
-    .card-price{
+    .card-price {
         width: 80%;
     }
-    
-    .card-price  p{
-       width: 70%;
+
+    .card-price p {
+        width: 70%;
     }
 
-    .card-tittle{
+    .card-tittle {
         width: 60%;
-     }
-     .card-tittle h3{
-         width: 60%;
-      }
+    }
+
+    .card-tittle h3 {
+        width: 60%;
+    }
 }
