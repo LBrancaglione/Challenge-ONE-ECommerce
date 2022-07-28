@@ -1,0 +1,200 @@
+@media screen and (max-width: 768px) {
+    .navBoddy {
+        width: 85%;
+    }
+
+    .mainBanner {
+        width: 91.6%;
+    }
+
+    .card h1, .card p {
+        width: 100%;
+    }
+
+    .rowContent {
+        width: 20%;
+    }
+
+    .rowContent:nth-child(n + 5) {
+        display: none;
+    }
+
+    .contact {
+        padding: 0px;
+        width: 100%;
+        height: 324px;
+    }
+
+    .contact-Content {
+        padding: 16px;
+        width: 100%;
+    }
+
+    .content-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+        height: 364px;
+        ;
+    }
+
+    .contact li {
+        padding: 5% 0%;
+    }
+
+    .contact-Form {
+        width: 100%;
+    }
+
+    .contact #name {
+        width: 100%;
+    }
+
+    .contact #message {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #searchBar input {
+        display: none;
+    }
+
+    #searchBar {
+        padding: 0px;
+        position: absolute;
+        left: 91.5%;
+        right: 16.47%;
+        top: 9.5%;
+        width: 0%;
+        bottom: 16.43%;
+    }
+
+    .navBoddy {
+        width: 85%;
+        margin: 0px 0px;
+    }
+
+    .leftItens {
+        padding: 5%;
+        width: 30%;
+    }
+
+    .leftItens img {
+        padding: 0px;
+    }
+
+    .rightItens button {
+        padding: 5%;
+    }
+
+    .mainBanner {
+        width: 82.1%;
+    }
+
+    .mainBanner .card {
+        width: 100%;
+        height: 80%;
+    }
+
+    .card h1, .card p {
+        width: 100%;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;
+
+    }
+
+    .card p {
+        padding-bottom: .5rem;
+        font-size: 14px;
+    }
+
+    .products {
+        padding: 3rem 0px;
+    }
+
+    .products-Content {
+        flex-direction: row;
+    }
+
+    .rowContent {
+        width: 42%;
+    }
+
+    .rowTittle {
+        padding: 0px .8rem;
+    }
+
+    .rowTittle p {
+        width: 57px;
+        height: 16px;
+
+        padding: 5%;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 0px;
+        height: 700px;
+    }
+
+    .contact-Content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin-top: -100%;
+    }
+
+    .content-left {
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact li {
+        text-align: center;
+    }
+
+    .contact-Form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        width: 90%;
+    }
+
+    .card-tittle h3 {
+        width: 176px;
+        height: 16px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #464646;
+    }
+
+    .card-price{
+        width: 80%;
+    }
+    
+    .card-price  p{
+       width: 70%;
+    }
+
+    .card-tittle{
+        width: 60%;
+     }
+     .card-tittle h3{
+         width: 60%;
+      }
+}
