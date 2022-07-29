@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+    /*Responsive for index.html starts here*/
     .navBoddy {
         width: 85%;
     }
@@ -77,9 +78,30 @@
     .contact #message {
         width: 100%;
     }
+    /*Responsive for index.html ends here*/
+    /*Responsive for login.html starts here*/
+    .login {
+        width: 100%;
+    }
+
+    .login-Form{
+        width: 60%;
+    }
+
+    #user-Email, #user-Password{
+        width: 100%;
+    }
+
+    .login-Form button{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /*Responsive for login.html ends here*/
 }
 
 @media screen and (max-width: 420px) {
+    /*Responsive for index.html starts here*/
     #searchBar input {
         display: none;
     }
@@ -221,4 +243,23 @@
     .card-tittle h3 {
         width: 60%;
     }
+    /*Responsive for index.html ends here*/
+    /*Responsive for login.html starts here*/
+    .login {
+        width: 100%;
+    }
+
+    .login-Form{
+        width: 60%;
+    }
+
+    #user-Email, #user-Password{
+        width: 100%;
+    }
+
+    .login-Form button{
+        width: 60%;
+        margin: 0 auto;
+    }
+    /*Responsive for login.html ends here*/
 }
