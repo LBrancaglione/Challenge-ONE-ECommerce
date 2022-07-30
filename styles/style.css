@@ -89,9 +89,9 @@ nav {
 
     width: 100%;
     height: 352px;
-    background-image: url(images/pexels-cottonbro-3945683.jpg);
+    background-image: url(../images/pexels-cottonbro-3945683.jpg);
     background-size: cover;
-    background-image: linear-gradient(to bottom, transparent 0%, black 200%), url(images/pexels-cottonbro-3945683.jpg);
+    background-image: linear-gradient(to bottom, transparent 0%, black 200%), url(../images/pexels-cottonbro-3945683.jpg);
 }
 
 .mainBanner .card {

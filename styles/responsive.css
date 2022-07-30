@@ -98,6 +98,11 @@
     }
 
     /*Responsive for login.html ends here*/
+    /*Responsive for Produtos start here*/
+    .rowContent-produtos{
+        width: 14%;
+    }
+    /*Responsive for Produtos ends here*/
 }
 
 @media screen and (max-width: 420px) {
@@ -262,4 +267,11 @@
         margin: 0 auto;
     }
     /*Responsive for login.html ends here*/
+    /*Responsive for Produtos start here*/
+    .rowContent-produtos{
+        width: 42%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    /*Responsive for Produtos ends here*/
 }

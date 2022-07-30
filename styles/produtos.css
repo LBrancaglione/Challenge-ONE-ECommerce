@@ -1,0 +1,139 @@
+main {
+    background: #E5E5E5;
+}
+
+.products {
+    padding: 1rem 3rem;
+}
+
+.products-Content-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+    justify-content: center;
+}
+
+.rowContent-produtos {
+    background: #E5E5E5;
+    display: grid;
+    grid-template-areas:
+        "card-imagem"
+        "card-corpo";
+    grid-template-columns: 100%;
+    grid-template-rows: 173px auto;
+    margin-right: 1rem;
+    width: calc(16.6% - 2rem);
+    margin-bottom: 5%;
+}
+
+.rowContent-produtos:last-child() {
+    margin-right: -100px;
+}
+
+.rowContent-produtos .icons {
+    grid-area: card-imagem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    z-index: 10;
+}
+
+.rowContent-produtos img {
+    grid-area: card-imagem;
+    width: 100%;
+    height: 100%;
+}
+
+.icons img {
+    width: 14px;
+    height: 18px;
+}
+
+.card-description {
+    display: grid;
+    grid-area: card-corpo;
+    grid-row-gap: .5rem;
+    grid-template-areas:
+        "card-cabecalho"
+        "card-conteudo";
+    grid-template-rows: 18px auto;
+    padding-top: 5%;
+}
+
+.card-tittle h3 {
+    width: 176px;
+    height: 16px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+
+.card-price p {
+    width: 176px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card-button {
+    width: 91px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+.rowTittle-produtos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.rowTittle-produtos h2 {
+    width: 148px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.rowTittle-produtos p {
+    width: 66px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    text-align: end;
+    padding-top: 1%;
+}
+
+.rowTittle-produtos button {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    width: 164px;
+    height: 41px;
+    background: #2A7AE4;
+    border: none;
+    color: #ffff;
+}
