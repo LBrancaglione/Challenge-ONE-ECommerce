@@ -64,6 +64,11 @@
     color: #ffff;
 }
 
+.cadastrar-produto-form button:hover {
+    background: #66a5f8;
+    cursor: pointer;
+}
+
 .contact {
     width: 90.5%;
 }

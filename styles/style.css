@@ -69,6 +69,10 @@ nav {
     background: #F5F5F5;
 }
 
+#btnSearch:hover{
+    cursor: pointer;
+}
+
 .rightItens button {
     box-shadow: 0 0 0 0;
     border: 1px solid #5d9ef3;
@@ -77,6 +81,12 @@ nav {
     height: 40px;
     background-color: white;
     color: #2A7AE4;
+}
+
+.rightItens button:hover{
+    background-color:#2A7AE4;
+    color:white;
+    cursor: pointer;
 }
 
 .mainBanner {
@@ -138,6 +148,12 @@ nav {
     background: #2A7AE4;
     border: none;
     color: #ffff;
+}
+
+.card button:hover{
+    background-color:#ffff;
+    color:#2A7AE4;
+    cursor: pointer;
 }
 
 .products {
@@ -220,6 +236,11 @@ nav {
     color: #2A7AE4;
 }
 
+.card-button:hover{
+    cursor: pointer;
+    color: #6ba2eb;
+}
+
 .rowTittle {
     display: flex;
     justify-content: space-between;
@@ -250,6 +271,11 @@ nav {
     color: #2A7AE4;
     text-align: end;
     padding-top: 1%;
+}
+
+.rowTittle p:hover{
+    cursor: pointer;
+    color: #6ba2eb;
 }
 
 .contact {
@@ -364,6 +390,11 @@ nav {
     border: none;
     color: #ffff;
     margin-top: .5rem;
+}
+
+.contact-Form button:hover{
+    background: #4b95f7;
+    cursor: pointer;
 }
 
 footer {

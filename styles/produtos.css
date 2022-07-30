@@ -50,6 +50,10 @@ main {
     height: 18px;
 }
 
+.icons img:hover{
+    cursor: pointer;
+}
+
 .card-description {
     display: grid;
     grid-area: card-corpo;
@@ -136,4 +140,9 @@ main {
     background: #2A7AE4;
     border: none;
     color: #ffff;
+}
+
+.rowTittle-produtos button:hover{
+    background: #66a5f8;
+    cursor: pointer;
 }
