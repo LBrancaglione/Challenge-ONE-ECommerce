@@ -103,6 +103,12 @@
         width: 14%;
     }
     /*Responsive for Produtos ends here*/
+    /*Responsive for adicionar-produto starts here*/
+    .cadastrar-produto-form{
+        width: 90%;
+        padding: 10% 0px;
+    }
+    /*Responsive for adicionar-produto ends here*/
 }
 
 @media screen and (max-width: 420px) {
@@ -122,12 +128,13 @@
     }
 
     .navBoddy {
+        justify-content: left;
         width: 85%;
         margin: 0px 0px;
     }
 
     .leftItens {
-        padding: 5%;
+        margin-right: 15%;
         width: 30%;
     }
 
@@ -136,7 +143,7 @@
     }
 
     .rightItens button {
-        padding: 5%;
+       width: 150%;
     }
 
     .mainBanner {
