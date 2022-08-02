@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+
     /*Responsive for index.html starts here*/
     .navBoddy {
         width: 85%;
@@ -9,11 +10,11 @@
         margin-right: 10%;
     }
 
-    .rightItens{
-       margin-left: 5%;
+    .rightItens {
+        margin-left: 5%;
     }
 
-    .rightItens button{
+    .rightItens button {
         width: 150%;
     }
 
@@ -32,7 +33,7 @@
         text-overflow: ellipsis;
     }
 
-    .card h1{
+    .card h1 {
         font-size: 38px;
     }
 
@@ -78,40 +79,59 @@
     .contact #message {
         width: 100%;
     }
+
     /*Responsive for index.html ends here*/
     /*Responsive for login.html starts here*/
     .login {
         width: 100%;
     }
 
-    .login-Form{
+    .login-Form {
         width: 60%;
     }
 
-    #user-Email, #user-Password{
+    #user-Email, #user-Password {
         width: 100%;
     }
 
-    .login-Form button{
+    .login-Form button {
         width: 80%;
         margin: 0 auto;
     }
 
     /*Responsive for login.html ends here*/
     /*Responsive for Produtos start here*/
-    .rowContent-produtos{
+    .rowContent-produtos {
         width: 14%;
     }
+
     /*Responsive for Produtos ends here*/
     /*Responsive for adicionar-produto starts here*/
-    .cadastrar-produto-form{
+    .cadastrar-produto-form {
         width: 90%;
         padding: 10% 0px;
     }
+
     /*Responsive for adicionar-produto ends here*/
+    /*Responsive for ver-produto starts here*/
+    .mainbanner {
+        width: 90%;
+        height: 221px;
+    }
+
+    .banner-image {
+        width: 70%;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    /*Responsive for ver-produto ends here*/
 }
 
 @media screen and (max-width: 420px) {
+
     /*Responsive for index.html starts here*/
     #searchBar input {
         display: none;
@@ -143,7 +163,7 @@
     }
 
     .rightItens button {
-       width: 150%;
+        width: 150%;
     }
 
     .mainBanner {
@@ -255,30 +275,63 @@
     .card-tittle h3 {
         width: 60%;
     }
+
     /*Responsive for index.html ends here*/
     /*Responsive for login.html starts here*/
     .login {
         width: 100%;
     }
 
-    .login-Form{
+    .login-Form {
         width: 60%;
     }
 
-    #user-Email, #user-Password{
+    #user-Email, #user-Password {
         width: 100%;
     }
 
-    .login-Form button{
+    .login-Form button {
         width: 60%;
         margin: 0 auto;
     }
+
     /*Responsive for login.html ends here*/
     /*Responsive for Produtos start here*/
-    .rowContent-produtos{
+    .rowContent-produtos {
         width: 42%;
         margin: 0 auto;
         margin-bottom: 5%;
     }
+
     /*Responsive for Produtos ends here*/
+    /*Responsive for ver-produto starts here*/
+    .mainbanner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        width: 100%;
+        margin-bottom: 35%;
+    }
+
+    .banner-image {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+    }
+
+    .banner-text {
+        width: 90%;
+        height: 5%;
+        padding: 0px 5%;
+    }
+
+    .banner-text h1 {
+        font-size: 22px;
+        line-height: 26px;
+        width: 328px;
+        height: 26px;
+    }
+
+    /*Responsive for ver-produto ends here*/
 }

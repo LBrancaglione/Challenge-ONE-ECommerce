@@ -1,0 +1,52 @@
+.mainbanner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 80%;
+    height: 403px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/unsplash_6FDXGY9J6y4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 61px;
+
+    color: #464646;
+}
+
+.banner-text p strong {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+}
+
+.banner-text p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+    padding-top: 1%;
+}
