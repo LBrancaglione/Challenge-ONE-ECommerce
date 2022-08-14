@@ -36,12 +36,12 @@
         <main>
             <section class="cadastar-produto">
                 <div class="cadastrar-produto-form">
-                    <h1>Adicionar novo produto</h1>
-                    <input id="img-url" type="url" placeholder="Digite o url da imagem do produto">
-                    <input id="categoria" type="text" placeholder="Digite a categoria do produto">
-                    <input id="produto-nome" type="text" placeholder="Digite o nome do produto">
-                    <input id="preco" type="number" placeholder="Digite o preço do produto">
-                    <input id="descricao" type="text" placeholder="Digite a descrição do produto">
+                    <h1 id="tituloAddProduto">Adicionar novo produto</h1>
+                    <input id="img-url" type="url" placeholder="Digite o url da imagem do produto" required>
+                    <input id="categoria" type="text" placeholder="Digite a categoria do produto" required>
+                    <input id="produto-nome" type="text" placeholder="Digite o nome do produto" required>
+                    <input id="preco" type="text"  placeholder="Digite o preço do produto" required onkeypress = 'return event.charCode >= 48 && event.charCode <= 57'>
+                    <input id="descricao" type="text" placeholder="Digite a descrição do produto" required>
                     <button id="cadastar-produto">Cadastrar</button>
                 </div>
             </section>
@@ -76,6 +76,7 @@
             <p>2022</p>
         </div>
     </footer>
+    <script src="scripts/adicionar-produto.js"></script>
 </body>
 
 </html>

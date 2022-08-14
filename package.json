@@ -1,0 +1,27 @@
+{
+  "name": "sprint02",
+  "version": "1.0.0",
+  "description": "A crud system for a web-store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "json-server": "^0.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LBrancaglione/Challenge-ONE-ECommerce.git"
+  },
+  "keywords": [
+    "store",
+    "crud",
+    "web"
+  ],
+  "author": "Leonardo Brancaglione",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LBrancaglione/Challenge-ONE-ECommerce/issues"
+  },
+  "homepage": "https://github.com/LBrancaglione/Challenge-ONE-ECommerce#readme"
+}
