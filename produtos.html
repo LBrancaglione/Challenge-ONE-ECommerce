@@ -30,6 +30,16 @@
         </nav>
     </header>
     <main>
+        <div id="popup">
+            <h1 id="tituloAddProduto">Editar produto</h1>
+            <input id="img-url" type="url" placeholder="Digite o url da imagem do produto" required>
+            <input id="categoria" type="text" placeholder="Digite a categoria do produto" required>
+            <input id="produto-nome" type="text" placeholder="Digite o nome do produto" required>
+            <input id="preco" type="text" placeholder="Digite o preço do produto" required
+                onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+            <input id="descricao" type="text" placeholder="Digite a descrição do produto" required>
+            <button onclick='closePopUp()'id="cadastar-produto">Cadastrar</button>
+        </div>
         <div class="products">
             <div class="rowTittle-produtos">
                 <h2>Produtos</h2>
